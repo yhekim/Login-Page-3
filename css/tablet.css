@@ -1,0 +1,110 @@
+.login-container .methods {
+    margin-bottom: 8px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.login-container .methods .facebook {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    padding: 5px 5px;
+    border-radius: 5px;
+    justify-content: center;
+    color: #fff;
+    background-color: #4267B2;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-container .methods .facebook i {
+    margin-right: 7px;
+    font-size: 10px;
+}
+
+.login-container .methods .google {
+    width: 45%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    font-size: 10px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+
+.login-container .methods .google img {
+    margin-right: 7px;
+    width: 10px;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .login-container .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15%;
+        font-size: 10px;
+        color: rgba(0, 0, 0, .4);
+        text-align: center;
+    }
+    .login-container .methods {
+        margin-bottom: 8px;
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+    .login-container .methods .facebook {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        background-color: red;
+        padding: 5px 5px;
+        border-radius: 5px;
+        justify-content: center;
+        color: #fff;
+        background-color: #4267B2;
+        font-size: 8px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .login-container .methods .facebook i {
+        margin-right: 7px;
+        font-size: 12px;
+    }
+    .login-container .methods .google {
+        width: 45%;
+        background-color: gray;
+        display: flex;
+        align-items: center;
+        padding: 5px 5px;
+        border-radius: 5px;
+        justify-content: center;
+        background-color: #fff;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+        font-size: 13px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, .6);
+        cursor: pointer;
+    }
+    .login-container .methods .google img {
+        margin-right: 7px;
+        width: 12px;
+        font-size: 14px;
+    }
+    .login-container .methods .google p,
+    .login-container .methods .facebook p {
+        display: none;
+    }
+}
